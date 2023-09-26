@@ -19,7 +19,6 @@ export function myz_baseMaterial(
       roughnessMap={ormMap}
       metalnessMap={ormMap}
       normalMap={normalMap}
-      metalness={1}
       {...props}
     />
   );

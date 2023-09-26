@@ -7,7 +7,7 @@ import { NebulaMaterial } from "./nebula/NebulaMaterial";
 import { SunriseMaterial } from "./sunrise/SunriseMaterial";
 import { SunsetMaterial } from "./sunset/SunsetMaterial";
 import { WalnutMaterial } from "./walnut/WalnutMaterial";
-import { myz_baseMaterial } from "./myz_base/myz_baseMaterial";
+import { Myz_baseMaterial } from "./myz_base/Myz_baseMaterial";
 
 export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
   switch (diceStyle) {
@@ -28,7 +28,7 @@ export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
     case "WALNUT":
       return <WalnutMaterial />;
     case "MYZ_BASE":
-      return <myz_baseMaterial />;
+      return <Myz_baseMaterial />;
     default:
       throw Error(`Dice style ${diceStyle} error: not implemented`);
   }

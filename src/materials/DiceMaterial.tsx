@@ -8,8 +8,8 @@ import { SunriseMaterial } from "./sunrise/SunriseMaterial";
 import { SunsetMaterial } from "./sunset/SunsetMaterial";
 import { WalnutMaterial } from "./walnut/WalnutMaterial";
 import { MyzbaseMaterial } from "./myzbase/MyzbaseMaterial";
-import { MyzgearMaterial } from "./myzbase/MyzgearMaterial";
-import { MyzskillMaterial } from "./myzbase/MyzskillMaterial";
+import { MyzgearMaterial } from "./myzgear/MyzgearMaterial";
+import { MyzskillMaterial } from "./myzskill/MyzskillMaterial";
 
 export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
   switch (diceStyle) {

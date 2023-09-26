@@ -5,13 +5,14 @@ import orm from "./orm.jpg";
 import normal from "./normal.jpg";
 import { gltfTexture } from "../../helpers/gltfTexture";
 
-export function Myz_baseMaterial(
+export function SunriseMaterial(
   props: JSX.IntrinsicElements["meshStandardMaterial"]
 ) {
   const [albedoMap, ormMap, normalMap] = useTexture(
     [albedo, orm, normal],
     (textures) => gltfTexture(textures, ["SRGB", "LINEAR", "LINEAR"])
   );
+
   return (
     <meshStandardMaterial
       map={albedoMap}

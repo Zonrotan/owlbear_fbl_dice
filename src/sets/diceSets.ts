@@ -11,6 +11,8 @@ import * as sunrisePreviews from "../previews/sunrise";
 import * as sunsetPreviews from "../previews/sunset";
 import * as walnutPreviews from "../previews/walnut";
 import * as myzbasePreviews from "../previews/myzbase";
+import * as myzskillPreviews from "../previews/myzskill";
+import * as myzgearPreviews from "../previews/myzgear";
 
 import allPreview from "../previews/all.png";
 
@@ -24,6 +26,8 @@ const standardPreviews: Record<DiceStyle, string> = {
   SUNSET: sunsetPreviews.D20,
   WALNUT: walnutPreviews.D20,
   MYZBASE: myzbasePreviews.D6,
+  MYZSKILL: myzskillPreviews.D6,
+  MYZGEAR: myzgearPreviews.D6,
 };
 
 function createStandardSet(style: DiceStyle): DiceSet {

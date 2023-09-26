@@ -53,7 +53,7 @@ const standardSets = [
   createStandardSet("SUNRISE"),
   createStandardSet("SUNSET"),
   createStandardSet("WALNUT"),
-  createStandardSet (MYZ_BASE)
+  createStandardSet ("MYZ_BASE"),
 ];
 
 const allSet: DiceSet = {

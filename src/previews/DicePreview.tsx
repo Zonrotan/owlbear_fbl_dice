@@ -11,7 +11,7 @@ import * as nebulaPreviews from "./nebula";
 import * as sunrisePreviews from "./sunrise";
 import * as sunsetPreviews from "./sunset";
 import * as walnutPreviews from "./walnut";
-import * as myz_basePreviews from "./myz_base";
+import * as myzbasePreviews from "./myzbase";
 
 
 const previews: Record<DiceStyle, Record<DiceType, string>> = {
@@ -23,7 +23,7 @@ const previews: Record<DiceStyle, Record<DiceType, string>> = {
   SUNRISE: sunrisePreviews,
   SUNSET: sunsetPreviews,
   WALNUT: walnutPreviews,
-  MYZ_BASE: myz_basePreviews,
+  MYZBASE: myzbasePreviews,
 };
 
 interface PreviewImageProps {

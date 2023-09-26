@@ -5,7 +5,7 @@ import orm from "./orm.jpg";
 import normal from "./normal.jpg";
 import { gltfTexture } from "../../helpers/gltfTexture";
 
-export function SunriseMaterial(
+export function MyzbaseMaterial(
   props: JSX.IntrinsicElements["meshStandardMaterial"]
 ) {
   const [albedoMap, ormMap, normalMap] = useTexture(

@@ -7,7 +7,7 @@ import { NebulaMaterial } from "./nebula/NebulaMaterial";
 import { SunriseMaterial } from "./sunrise/SunriseMaterial";
 import { SunsetMaterial } from "./sunset/SunsetMaterial";
 import { WalnutMaterial } from "./walnut/WalnutMaterial";
-import { Myz_baseMaterial } from "./myz_base/Myz_baseMaterial";
+import { Myz_baseMaterial } from "../myz_base/Myz_baseMaterial";
 
 export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
   switch (diceStyle) {

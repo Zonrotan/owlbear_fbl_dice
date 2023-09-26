@@ -12,6 +12,8 @@ import * as sunrisePreviews from "./sunrise";
 import * as sunsetPreviews from "./sunset";
 import * as walnutPreviews from "./walnut";
 import * as myzbasePreviews from "./myzbase";
+import * as myzskillPreviews from "./myzskill";
+import * as myzgearPreviews from "./myzgear";
 
 
 const previews: Record<DiceStyle, Record<DiceType, string>> = {
@@ -24,6 +26,8 @@ const previews: Record<DiceStyle, Record<DiceType, string>> = {
   SUNSET: sunsetPreviews,
   WALNUT: walnutPreviews,
   MYZBASE: myzbasePreviews,
+  MYZSKILL: myzskillPreviews,
+  MYZGEAR: myzgearPreviews,
 };
 
 interface PreviewImageProps {

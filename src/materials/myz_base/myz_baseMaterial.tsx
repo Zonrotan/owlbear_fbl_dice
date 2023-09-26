@@ -10,7 +10,7 @@ export function myz_baseMaterial(
 ) {
   const [albedoMap, ormMap, normalMap] = useTexture(
     [albedo, orm, normal],
-    (textures) => gltfTexture(textures, ["SRGB", "LINEAR", "LINEAR"])
+    (textures) => gltfTexture(textures, ["SRGB", "SRGB", "SRGB"])
   );
   return (
     <meshStandardMaterial

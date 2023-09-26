@@ -7,4 +7,4 @@ export type DiceStyle =
   | "SUNRISE"
   | "SUNSET"
   | "WALNUT"
-  | "MYZ_BASE";
+  | "MYZBASE";

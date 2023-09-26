@@ -8,6 +8,8 @@ import { SunriseMaterial } from "./sunrise/SunriseMaterial";
 import { SunsetMaterial } from "./sunset/SunsetMaterial";
 import { WalnutMaterial } from "./walnut/WalnutMaterial";
 import { MyzbaseMaterial } from "./myzbase/MyzbaseMaterial";
+import { MyzgearMaterial } from "./myzbase/MyzgearMaterial";
+import { MyzskillMaterial } from "./myzbase/MyzskillMaterial";
 
 export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
   switch (diceStyle) {
@@ -29,6 +31,10 @@ export function DiceMaterial({ diceStyle }: { diceStyle: DiceStyle }) {
       return <WalnutMaterial />;
     case "MYZBASE":
       return <MyzbaseMaterial />;
+    case "MYZGEAR":
+      return <MyzgearMaterial />;
+    case "MYZSKILL":
+      return <MyzskillMaterial />;
     default:
       throw Error(`Dice style ${diceStyle} error: not implemented`);
   }

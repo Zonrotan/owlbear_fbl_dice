@@ -10,7 +10,7 @@ import * as nebulaPreviews from "../previews/nebula";
 import * as sunrisePreviews from "../previews/sunrise";
 import * as sunsetPreviews from "../previews/sunset";
 import * as walnutPreviews from "../previews/walnut";
-import * as myzbasePreviews from "../previews/myz_base";
+import * as myzbasePreviews from "../previews/myzbase";
 
 import allPreview from "../previews/all.png";
 

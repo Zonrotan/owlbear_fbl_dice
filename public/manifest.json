@@ -2,8 +2,8 @@
   "name": "MYZ Dice",
   "version": "0.0.1",
   "manifest_version": 1,
-  "author": "Zonrötan",
-  "homepage_url": "-",
+  "author": "Zonrotan",
+  "homepage_url": ""https://frialigan.se"",
   "icon": "/logo.png",
   "description": "Beautiful 3D dice extension for d20 based systems",
   "action": {

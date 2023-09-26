@@ -23,7 +23,6 @@ const standardPreviews: Record<DiceStyle, string> = {
   SUNRISE: sunrisePreviews.D20,
   SUNSET: sunsetPreviews.D20,
   WALNUT: walnutPreviews.D20,
-  MYZ_BASE: myz_basePreviews.D6,
 };
 
 function createStandardSet(style: DiceStyle): DiceSet {

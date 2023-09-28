@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "manifest_version": 1,
   "author": "Zonrotan",
-  "homepage_url": "https://frialigan.se",
+  "homepage_url": "https://discord.gg/yzw",
   "icon": "/logo.png",
-  "description": "Beautiful 3D dice extension for d20 based systems",
+  "description": "3D dice extension for Mutant Year Zero",
   "action": {
     "title": "MYZ Dice",
     "icon": "/icon.svg",

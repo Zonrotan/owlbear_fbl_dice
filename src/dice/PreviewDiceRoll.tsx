@@ -55,8 +55,8 @@ export function PreviewDiceRoll() {
 
   const diceWeight = useMemo<WeightClass>(() => {
       return "MEDIUM";
-    }
   }, [dice]);
+  
 
   // Play a roll sound when the dice button is in focus
   useEffect(() => {

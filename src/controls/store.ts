@@ -29,7 +29,7 @@ interface DiceControlsState {
   setDiceRollPressTime: (time: number | null) => void;
 }
 
-const initialSet = allSet;
+const initialSet = diceSets[3];
 const initialDiceCounts = getDiceCountsFromSet(initialSet);
 const initialDiceById = getDiceByIdFromSet(initialSet);
 

@@ -1,4 +1,4 @@
-
+import { DiceStyle } from "../types/DiceStyle";
 import { MyzbaseMaterial } from "./myzbase/MyzbaseMaterial";
 import { MyzgearMaterial } from "./myzgear/MyzgearMaterial";
 import { MyzskillMaterial } from "./myzskill/MyzskillMaterial";

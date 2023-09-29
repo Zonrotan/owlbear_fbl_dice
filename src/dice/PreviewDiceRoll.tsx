@@ -53,7 +53,10 @@ export function PreviewDiceRoll() {
   const groupRef = useRef<THREE.Group>(null);
   const listener = useAudioListener();
 
-
+  const diceWeight = useMemo<WeightClass>(() => {
+      return "MEDIUM";
+    }
+  }, [dice]);
 
   // Play a roll sound when the dice button is in focus
   useEffect(() => {

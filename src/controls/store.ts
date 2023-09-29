@@ -18,6 +18,7 @@ interface DiceControlsState {
   diceAdvantage: Advantage;
   diceHidden: boolean;
   diceRollPressTime: number | null;
+  changeDiceSet: (diceSet: DiceSet) => void;
   resetDiceCounts: () => void;
   changeDieCount: (id: string, count: number) => void;
   incrementDieCount: (id: string) => void;
@@ -42,6 +43,27 @@ export const useDiceControlsStore = create<DiceControlsState>()(
     diceAdvantage: null,
     diceHidden: false,
     diceRollPressTime: null,
+    changeDiceSet(diceSet) {
+      set((state) => {
+        const counts: DiceCounts = {};
+        const prevCounts = state.diceCounts;
+        const prevDice = state.diceSet.dice;
+        for (let i = 0; i < diceSet.dice.length; i++) {
+          const die = diceSet.dice[i];
+          const prevDie = prevDice[i];
+          // Carry over count if the index and die type match
+          if (prevDie && prevDie.type === die.type) {
+            counts[die.id] = prevCounts[prevDie.id] || 0;
+          } else {
+            counts[die.id] = 0;
+          }
+        }
+        state.diceCounts = counts;
+        state.diceSet = diceSet;
+        state.defaultDiceCounts = getDiceCountsFromSet(diceSet);
+        state.diceById = getDiceByIdFromSet(diceSet);
+      });
+    },
     resetDiceCounts() {
       set((state) => {
         state.diceCounts = state.defaultDiceCounts;

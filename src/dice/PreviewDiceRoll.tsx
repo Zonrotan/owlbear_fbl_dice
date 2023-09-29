@@ -54,12 +54,9 @@ export function PreviewDiceRoll() {
   const listener = useAudioListener();
 
   const diceWeight = useMemo<WeightClass>(() => {
-    if (dice.length > 0 && dice[0].style === "IRON") {
-      return "HEAVY";
-    } else {
       return "MEDIUM";
-    }
   }, [dice]);
+  
 
   // Play a roll sound when the dice button is in focus
   useEffect(() => {

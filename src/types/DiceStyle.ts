@@ -1,4 +1,7 @@
 export type DiceStyle =
-  | "MYZBASE"
-  | "MYZSKILL"
-  | "MYZGEAR";
+  | "FBLBASE"
+  | "FBLSKILL"
+  | "FBLGEAR"
+  | "FBLD8"
+  | "FBLD10"
+  | "FBLD12";

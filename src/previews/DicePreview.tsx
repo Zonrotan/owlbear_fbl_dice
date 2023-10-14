@@ -3,15 +3,21 @@ import { styled } from "@mui/material/styles";
 import { DiceStyle } from "../types/DiceStyle";
 import { DiceType } from "../types/DiceType";
 
-import * as myzbasePreviews from "./myzbase";
-import * as myzskillPreviews from "./myzskill";
-import * as myzgearPreviews from "./myzgear";
+import * as fblbasePreviews from "./fblbase";
+import * as fblskillPreviews from "./fblskill";
+import * as fblgearPreviews from "./fblgear";
+import * as fbld8Previews from "./fbld8";
+import * as fbld10Previews from "./fbld10";
+import * as fbld12Previews from "./fbld12";
 
 
 const previews: Record<DiceStyle, Record<DiceType, string>> = {
-  MYZBASE: myzbasePreviews,
-  MYZSKILL: myzskillPreviews,
-  MYZGEAR: myzgearPreviews,
+  FBLBASE: fblbasePreviews,
+  FBLSKILL: fblskillPreviews,
+  FBLGEAR: fblgearPreviews,
+  FBLD8: fbld8Previews,
+  FBLD10: fbld10Previews,
+  FBLD12: fbld12Previews,
 };
 
 interface PreviewImageProps {

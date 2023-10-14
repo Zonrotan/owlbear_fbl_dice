@@ -2,16 +2,23 @@ import { DiceSet } from "../types/DiceSet";
 import { DiceStyle } from "../types/DiceStyle";
 import { Die } from "../types/Die";
 
-import * as myzbasePreviews from "../previews/myzbase";
-import * as myzskillPreviews from "../previews/myzskill";
-import * as myzgearPreviews from "../previews/myzgear";
+import * as fblbasePreviews from "../previews/fblbase";
+import * as fblskillPreviews from "../previews/fblskill";
+import * as fblgearPreviews from "../previews/fblgear";
+import * as fbld8Previews from "../previews/fbld8";
+import * as fbld10Previews from "../previews/fbld10";
+import * as fbld12Previews from "../previews/fbld12";
+
 
 import allPreview from "../previews/all.png";
 
 const standardPreviews: Record<DiceStyle, string> = {
-  MYZBASE: myzbasePreviews.D6,
-  MYZSKILL: myzskillPreviews.D6,
-  MYZGEAR: myzgearPreviews.D6,
+  FBLBASE: fblbasePreviews.D6,
+  FBLSKILL: fblskillPreviews.D6,
+  FBLGEAR: fblgearPreviews.D6,
+	FBLD8: fbld8Previews.D8,
+	FBLD10: fbld10Previews.D10,
+	FBLD12: fbld12Previews.D12,
 };
 
 function createStandardSet(style: DiceStyle): DiceSet {
@@ -28,9 +35,12 @@ function createStandardSet(style: DiceStyle): DiceSet {
 
 const standardSets = [
 
-  createStandardSet ("MYZBASE"),
-  createStandardSet ("MYZSKILL"),
-  createStandardSet ("MYZGEAR"),
+  createStandardSet ("FBLBASE"),
+  createStandardSet ("FBLSKILL"),
+  createStandardSet ("FBLGEAR"),
+  createStandardSet ("FBLD8"),
+  createStandardSet ("FBLD10"),
+  createStandardSet ("FBLD12"),
 ];
 
 const allSet: DiceSet = {

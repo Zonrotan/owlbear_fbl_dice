@@ -1,13 +1,13 @@
 {
-  "name": "MYZ Dice",
+  "name": "FBL Dice",
   "version": "0.0.1",
   "manifest_version": 1,
   "author": "Zonrotan",
-  "homepage_url": "https://discord.gg/yzw",
+  "homepage_url": "https://github.com/SnakeOfMidgaard/owlbear_myz_dice",
   "icon": "/logo.png",
   "description": "3D dice extension for Mutant Year Zero",
   "action": {
-    "title": "MYZ Dice",
+    "title": "FBL Dice",
     "icon": "/icon.svg",
     "popover": "/",
     "height": 700,

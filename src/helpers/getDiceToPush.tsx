@@ -31,6 +31,16 @@ export function getDiceToPush(
             else if (dieOrDice.style === "FBLSKILL" && dieOrDice.type === "D6" && value < 6) {
                 diceToPush.push(dieOrDice.id);
             }
+            else if (dieOrDice.style === "FBLD8" && dieOrDice.type === "D8" && value < 6) {
+              diceToPush.push(dieOrDice.id);
+          }
+          else if (dieOrDice.style === "FBLD10" && dieOrDice.type === "D10" && value < 6) {
+            diceToPush.push(dieOrDice.id);
+          }
+          else if (dieOrDice.style === "FBLD12" && dieOrDice.type === "D12" && value < 6) {
+          diceToPush.push(dieOrDice.id);
+          }
+
         }
       } else if (isDice(dieOrDice)) {
         const ids = getDiceToPush(dieOrDice, values);

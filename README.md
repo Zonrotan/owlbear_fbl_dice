@@ -15,7 +15,7 @@ MASSIVE thanks to [jjsoini](https://github.com/jjsoini/) for help with the Pushi
 The extension can be installed by clicking the "ADD EXTENSION" button on your Owlbear Rodeo profile and copy-pasting this link into the URL field.
 
 ```sh
-https://fbl-dice.onrender.com/
+https://fbl-dice.onrender.com/manifest.json
 ```
 
 ## How it Works

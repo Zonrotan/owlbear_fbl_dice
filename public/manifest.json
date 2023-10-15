@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 1,
   "author": "Zonrotan",
-  "homepage_url": "https://github.com/SnakeOfMidgaard/owlbear_fbl_dice",
+  "homepage_url": "https://github.com/Zonrotan/owlbear_fbl_dice",
   "icon": "/logo.png",
   "description": "3D dice extension for Forbidden Lands",
   "action": {

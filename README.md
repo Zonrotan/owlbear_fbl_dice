@@ -1,6 +1,6 @@
-# Mutant:Year Zero Dice for Owlbear Rodeo
+# Forbidden Lands Dice for Owlbear Rodeo
 
-3D dice extension for playing Mutant: Year Zero and its' expansions in OwlBear Rodeo, based on the [OwlBear Rodeo Dice Extension](https://github.com/owlbear-rodeo/dice).
+3D dice extension for playing Forbidden Lands in OwlBear Rodeo, based on the [OwlBear Rodeo Dice Extension](https://github.com/owlbear-rodeo/dice).
 
 
 
@@ -15,7 +15,7 @@ MASSIVE thanks to [jjsoini](https://github.com/jjsoini/) for help with the Pushi
 The extension can be installed by clicking the "ADD EXTENSION" button on your Owlbear Rodeo profile and copy-pasting this link into the URL field.
 
 ```sh
-https://myz-dice.onrender.com/
+https://fbl-dice.onrender.com/
 ```
 
 ## How it Works

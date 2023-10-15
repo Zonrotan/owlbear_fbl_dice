@@ -1,6 +1,7 @@
 import { DiceSet } from "../types/DiceSet";
 import { DiceStyle } from "../types/DiceStyle";
 import { Die } from "../types/Die";
+import { DiceType} from "../types/DiceType";
 
 import * as fblbasePreviews from "../previews/fblbase";
 import * as fblskillPreviews from "../previews/fblskill";
@@ -22,13 +23,13 @@ const standardPreviews: Record<DiceStyle, string> = {
 
 function createStandardSet(style: DiceStyle): DiceSet {
   let id: string;
-  let diceType: string;
-  
+  let diceType: DiceType; // Change the type to DiceType
+
   // Set id and diceType based on the style.
   switch (style) {
     case "FBLBASE":
       id = "FBLBASE_STANDARD";
-      diceType = "D6";
+      diceType = "D6"; // Use a valid DiceType value
       break;
     case "FBLSKILL":
       id = "FBLSKILL_STANDARD";
@@ -65,6 +66,7 @@ function createStandardSet(style: DiceStyle): DiceSet {
     previewImage: standardPreviews[style],
   };
 }
+
 
 const standardSets: DiceSet[] = [
   createStandardSet("FBLBASE"),

@@ -27,7 +27,7 @@ export function DiceSetPicker() {
   }
 
 
-/** Dice Style Picker (not used in MYZ)
+/** Dice Style Picker (not used in FBL)
   return (
     <>
       <IconButton
